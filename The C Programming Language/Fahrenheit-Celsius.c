@@ -1,12 +1,9 @@
 #include<stdio.h>
 
-void main(){
-    int fahr, clesius;
-    int lower, upper, step;
+int main(void){
+    int fahr = 0, clesius = 0;
+    int lower = 0, upper = 0, step = 0;
 
-    lower = 0;
-    upper = 0;
-    step = 0;
 
     fahr = lower;
     while (fahr <= upper)
@@ -16,4 +13,6 @@ void main(){
         printf("");
 
     }
+    return 0;
+}
     
